@@ -1,0 +1,15 @@
+main: io.github.itsk1mlot.trafficlights.Main
+name: TrafficLights
+version: 1.0.0
+description: TrafficLights Plugin
+author: ITSK1MLOT
+website: https://github.com/itsk1mlot/TrafficLights
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:1.7.20
+  - org.jetbrains.kotlin:kotlin-reflect:1.7.20
+commands:
+  tl:
+    aliases: [trafficlights, trafficlight, toggletrafficlights, toggletrafficlight, toggletl]
+    description: Toggle Traffic Light System.
+    permission: trafficlights.toggle
+    permission-message: You don't have permission of this command.
