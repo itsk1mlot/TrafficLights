@@ -1,3 +1,8 @@
 # TrafficLights
-TrafficLights Plugin for WILD
-(By Kotlin)
+
+## 사용처
+### 마인크래프트 야생 플레이시 사용할 수 있습니다.
+
+## 사용방법
+### [/tl] 명령어를 사용하여 비/활성화 할 수 있습니다.
+### 1분마다 50%의 확률로 빨간 신호등이 활성화됩니다!
