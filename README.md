@@ -1,4 +1,4 @@
-# TrafficLights (신호등 플러그인)
+# TrafficLights 1.1
 
 ## 사용처
 #### 마인크래프트 야생 플레이시 사용할 수 있습니다.

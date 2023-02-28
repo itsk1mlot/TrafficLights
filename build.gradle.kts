@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "io.github.itsk1mlot.trafficlights"
-version = "1.0"
+version = "1.1"
 
 repositories {
     mavenCentral()

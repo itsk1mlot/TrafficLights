@@ -49,8 +49,8 @@ class StartTimer2 : TimerTask() {
 class StartTimer3 : TimerTask() {
     @Override
     override fun run() {
-        ToggleTrafficLights.redLightStatus = true
         Messages.redLightTitle()
+        ToggleTrafficLights.redLightStatus = true
         val timer4: Timer = Timer()
         timer4.schedule(StartTimer4(), 5000)
     }
