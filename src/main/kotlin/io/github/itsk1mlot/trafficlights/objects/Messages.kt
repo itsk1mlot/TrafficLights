@@ -1,5 +1,6 @@
 package io.github.itsk1mlot.trafficlights.objects
 
+import io.github.itsk1mlot.trafficlights.i18n.I18n
 import net.kyori.adventure.text.Component
 import net.kyori.adventure.title.TitlePart
 import org.bukkit.entity.Player
@@ -7,11 +8,11 @@ import org.bukkit.entity.Player
 object Messages {
 
     fun redLightTitle(p: Player) {
-        p.sendTitlePart(TitlePart.TITLE, Component.text("§c빨간불입니다!"))
-        p.sendTitlePart(TitlePart.SUBTITLE, Component.text("§e지금 움직이면 §c사망합니다!"))
+        p.sendTitlePart(TitlePart.TITLE, Component.text(I18n.t("red_light_title")))
+        p.sendTitlePart(TitlePart.SUBTITLE, Component.text(I18n.t("red_light_description")))
     }
     fun greenLightTitle(p: Player) {
-        p.sendTitlePart(TitlePart.TITLE, Component.text("§a초록불입니다!"))
-        p.sendTitlePart(TitlePart.SUBTITLE, Component.text("§e이제 움직여도 §a괜찮습니다!"))
+        p.sendTitlePart(TitlePart.TITLE, Component.text(I18n.t("green_light_title")))
+        p.sendTitlePart(TitlePart.SUBTITLE, Component.text(I18n.t("green_light_description")))
     }
 }

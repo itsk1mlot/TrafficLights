@@ -1,5 +1,6 @@
 package io.github.itsk1mlot.trafficlights.commands
 
+import io.github.itsk1mlot.trafficlights.i18n.I18n
 import org.bukkit.command.Command
 import org.bukkit.command.CommandExecutor
 import org.bukkit.command.CommandSender
@@ -18,13 +19,11 @@ class ToggleTrafficLights: CommandExecutor {
         if (trafficlight) {
             trafficlight = false
             redLightStatus = false
-            p.sendMessage("§6[TrafficLights] §a신호등 기능이 꺼졌습니다!")
+            p.sendMessage(I18n.t("system_toggle_off"))
         } else if (!trafficlight) {
             trafficlight = true
-            redLightStatus = true
-            p.sendMessage("§6[TrafficLights] §a신호등 기능이 켜졌습니다!")
-            // -----------------------------------------------------------
-            Messages.redLightTitle(p)
+            redLightStatus = false
+            p.sendMessage(I18n.t("system_toggle_on"))
         }
         return false
     }
