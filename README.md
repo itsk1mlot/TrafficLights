@@ -4,7 +4,7 @@
 #### 마인크래프트 야생 플레이시 사용할 수 있습니다.
 
 ## 다운로드 방법
-#### 깃허브 메인 페이지(https://github.com/itsk1mlot/TrafficLights)에서 오른쪽에 있는 Release를 클릭 후 TrafficLight-1.1.jar 파일을 클릭해 다운로드합니다.
+#### 깃허브 메인 페이지( https://github.com/itsk1mlot/TrafficLights )에서 오른쪽에 있는 Release를 클릭 후 TrafficLight-1.1.jar 파일을 클릭해 다운로드합니다.
 
 ## 사용방법
 #### [/tl] 명령어를 사용하여 비/활성화 할 수 있습니다.
